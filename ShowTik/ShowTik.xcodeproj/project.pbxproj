@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6562A7723A25F9B000AEF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A7623A25F9B000AEF7F /* AppDelegate.swift */; };
+		E6562A7923A25F9B000AEF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A7823A25F9B000AEF7F /* ViewController.swift */; };
+		E6562A7C23A25F9B000AEF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6562A7A23A25F9B000AEF7F /* Main.storyboard */; };
+		E6562A7E23A25F9D000AEF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6562A7D23A25F9D000AEF7F /* Assets.xcassets */; };
+		E6562A8123A25F9D000AEF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6562A7F23A25F9D000AEF7F /* LaunchScreen.storyboard */; };
+		E6562A8923A265F2000AEF7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A8823A265F2000AEF7F /* LoginViewController.swift */; };
+		E6562A8B23A27481000AEF7F /* Apotik.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A8A23A27481000AEF7F /* Apotik.swift */; };
+		E6562A8D23A278F3000AEF7F /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A8C23A278F3000AEF7F /* DBhelper.swift */; };
+		E6562A8F23A28061000AEF7F /* AdminObatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A8E23A28061000AEF7F /* AdminObatViewController.swift */; };
+		E6562A9123A28072000AEF7F /* AdminApotikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A9023A28072000AEF7F /* AdminApotikViewController.swift */; };
+		E6562A9323A2821B000AEF7F /* AdminApotikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A9223A2821B000AEF7F /* AdminApotikTableViewCell.swift */; };
+		E6562A9523A2836A000AEF7F /* PopUpAdminApotikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A9423A2836A000AEF7F /* PopUpAdminApotikViewController.swift */; };
+		E6562A9723A293B3000AEF7F /* PopUpEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6562A9623A293B3000AEF7F /* PopUpEditViewController.swift */; };
+		E6F70F7A23A2C1C400AC4748 /* Obat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F7923A2C1C400AC4748 /* Obat.swift */; };
+		E6F70F7C23A2C64D00AC4748 /* AdminObatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F7B23A2C64D00AC4748 /* AdminObatTableViewCell.swift */; };
+		E6F70F7E23A2CBE700AC4748 /* PopUpAdminObatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F7D23A2CBE700AC4748 /* PopUpAdminObatViewController.swift */; };
+		E6F70F8023A2D3E000AC4748 /* PopUpEditObatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F7F23A2D3E000AC4748 /* PopUpEditObatViewController.swift */; };
+		E6F70F8223A2DA3500AC4748 /* ObatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8123A2DA3500AC4748 /* ObatViewController.swift */; };
+		E6F70F8423A2DBDF00AC4748 /* ObatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8323A2DBDF00AC4748 /* ObatTableViewCell.swift */; };
+		E6F70F8623A2E1E500AC4748 /* PopUpObatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8523A2E1E500AC4748 /* PopUpObatViewController.swift */; };
+		E6F70F8823A2E54900AC4748 /* ApotikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8723A2E54900AC4748 /* ApotikViewController.swift */; };
+		E6F70F8A23A2E66B00AC4748 /* ApotikTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8923A2E66B00AC4748 /* ApotikTableViewCell.swift */; };
+		E6F70F8C23A3024000AC4748 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F70F8B23A3024000AC4748 /* Users.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6562A7323A25F9B000AEF7F /* ShowTik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6562A7623A25F9B000AEF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6562A7823A25F9B000AEF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6562A7B23A25F9B000AEF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6562A7D23A25F9D000AEF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6562A8023A25F9D000AEF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6562A8223A25F9D000AEF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6562A8823A265F2000AEF7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6562A8A23A27481000AEF7F /* Apotik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apotik.swift; sourceTree = "<group>"; };
+		E6562A8C23A278F3000AEF7F /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		E6562A8E23A28061000AEF7F /* AdminObatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminObatViewController.swift; sourceTree = "<group>"; };
+		E6562A9023A28072000AEF7F /* AdminApotikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminApotikViewController.swift; sourceTree = "<group>"; };
+		E6562A9223A2821B000AEF7F /* AdminApotikTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminApotikTableViewCell.swift; sourceTree = "<group>"; };
+		E6562A9423A2836A000AEF7F /* PopUpAdminApotikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAdminApotikViewController.swift; sourceTree = "<group>"; };
+		E6562A9623A293B3000AEF7F /* PopUpEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpEditViewController.swift; sourceTree = "<group>"; };
+		E6F70F7923A2C1C400AC4748 /* Obat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obat.swift; sourceTree = "<group>"; };
+		E6F70F7B23A2C64D00AC4748 /* AdminObatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminObatTableViewCell.swift; sourceTree = "<group>"; };
+		E6F70F7D23A2CBE700AC4748 /* PopUpAdminObatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAdminObatViewController.swift; sourceTree = "<group>"; };
+		E6F70F7F23A2D3E000AC4748 /* PopUpEditObatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpEditObatViewController.swift; sourceTree = "<group>"; };
+		E6F70F8123A2DA3500AC4748 /* ObatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObatViewController.swift; sourceTree = "<group>"; };
+		E6F70F8323A2DBDF00AC4748 /* ObatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObatTableViewCell.swift; sourceTree = "<group>"; };
+		E6F70F8523A2E1E500AC4748 /* PopUpObatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpObatViewController.swift; sourceTree = "<group>"; };
+		E6F70F8723A2E54900AC4748 /* ApotikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApotikViewController.swift; sourceTree = "<group>"; };
+		E6F70F8923A2E66B00AC4748 /* ApotikTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApotikTableViewCell.swift; sourceTree = "<group>"; };
+		E6F70F8B23A3024000AC4748 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6562A7023A25F9B000AEF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6562A6A23A25F9B000AEF7F = {
+			isa = PBXGroup;
+			children = (
+				E6562A7523A25F9B000AEF7F /* ShowTik */,
+				E6562A7423A25F9B000AEF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6562A7423A25F9B000AEF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6562A7323A25F9B000AEF7F /* ShowTik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6562A7523A25F9B000AEF7F /* ShowTik */ = {
+			isa = PBXGroup;
+			children = (
+				E6562A7623A25F9B000AEF7F /* AppDelegate.swift */,
+				E6562A7823A25F9B000AEF7F /* ViewController.swift */,
+				E6562A7A23A25F9B000AEF7F /* Main.storyboard */,
+				E6562A7D23A25F9D000AEF7F /* Assets.xcassets */,
+				E6562A7F23A25F9D000AEF7F /* LaunchScreen.storyboard */,
+				E6562A8223A25F9D000AEF7F /* Info.plist */,
+				E6562A8823A265F2000AEF7F /* LoginViewController.swift */,
+				E6562A8A23A27481000AEF7F /* Apotik.swift */,
+				E6562A8C23A278F3000AEF7F /* DBhelper.swift */,
+				E6562A9023A28072000AEF7F /* AdminApotikViewController.swift */,
+				E6562A8E23A28061000AEF7F /* AdminObatViewController.swift */,
+				E6562A9223A2821B000AEF7F /* AdminApotikTableViewCell.swift */,
+				E6562A9423A2836A000AEF7F /* PopUpAdminApotikViewController.swift */,
+				E6562A9623A293B3000AEF7F /* PopUpEditViewController.swift */,
+				E6F70F7923A2C1C400AC4748 /* Obat.swift */,
+				E6F70F7B23A2C64D00AC4748 /* AdminObatTableViewCell.swift */,
+				E6F70F7D23A2CBE700AC4748 /* PopUpAdminObatViewController.swift */,
+				E6F70F7F23A2D3E000AC4748 /* PopUpEditObatViewController.swift */,
+				E6F70F8123A2DA3500AC4748 /* ObatViewController.swift */,
+				E6F70F8323A2DBDF00AC4748 /* ObatTableViewCell.swift */,
+				E6F70F8523A2E1E500AC4748 /* PopUpObatViewController.swift */,
+				E6F70F8723A2E54900AC4748 /* ApotikViewController.swift */,
+				E6F70F8923A2E66B00AC4748 /* ApotikTableViewCell.swift */,
+				E6F70F8B23A3024000AC4748 /* Users.swift */,
+			);
+			path = ShowTik;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6562A7223A25F9B000AEF7F /* ShowTik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6562A8523A25F9D000AEF7F /* Build configuration list for PBXNativeTarget "ShowTik" */;
+			buildPhases = (
+				E6562A6F23A25F9B000AEF7F /* Sources */,
+				E6562A7023A25F9B000AEF7F /* Frameworks */,
+				E6562A7123A25F9B000AEF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowTik;
+			productName = ShowTik;
+			productReference = E6562A7323A25F9B000AEF7F /* ShowTik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6562A6B23A25F9B000AEF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HP;
+				TargetAttributes = {
+					E6562A7223A25F9B000AEF7F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E6562A6E23A25F9B000AEF7F /* Build configuration list for PBXProject "ShowTik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6562A6A23A25F9B000AEF7F;
+			productRefGroup = E6562A7423A25F9B000AEF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6562A7223A25F9B000AEF7F /* ShowTik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6562A7123A25F9B000AEF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6562A8123A25F9D000AEF7F /* LaunchScreen.storyboard in Resources */,
+				E6562A7E23A25F9D000AEF7F /* Assets.xcassets in Resources */,
+				E6562A7C23A25F9B000AEF7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6562A6F23A25F9B000AEF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6562A8D23A278F3000AEF7F /* DBhelper.swift in Sources */,
+				E6562A8923A265F2000AEF7F /* LoginViewController.swift in Sources */,
+				E6F70F7E23A2CBE700AC4748 /* PopUpAdminObatViewController.swift in Sources */,
+				E6F70F8023A2D3E000AC4748 /* PopUpEditObatViewController.swift in Sources */,
+				E6562A9123A28072000AEF7F /* AdminApotikViewController.swift in Sources */,
+				E6562A8F23A28061000AEF7F /* AdminObatViewController.swift in Sources */,
+				E6562A9523A2836A000AEF7F /* PopUpAdminApotikViewController.swift in Sources */,
+				E6F70F7C23A2C64D00AC4748 /* AdminObatTableViewCell.swift in Sources */,
+				E6F70F7A23A2C1C400AC4748 /* Obat.swift in Sources */,
+				E6F70F8223A2DA3500AC4748 /* ObatViewController.swift in Sources */,
+				E6F70F8823A2E54900AC4748 /* ApotikViewController.swift in Sources */,
+				E6F70F8623A2E1E500AC4748 /* PopUpObatViewController.swift in Sources */,
+				E6F70F8C23A3024000AC4748 /* Users.swift in Sources */,
+				E6F70F8A23A2E66B00AC4748 /* ApotikTableViewCell.swift in Sources */,
+				E6562A9723A293B3000AEF7F /* PopUpEditViewController.swift in Sources */,
+				E6F70F8423A2DBDF00AC4748 /* ObatTableViewCell.swift in Sources */,
+				E6562A7923A25F9B000AEF7F /* ViewController.swift in Sources */,
+				E6562A9323A2821B000AEF7F /* AdminApotikTableViewCell.swift in Sources */,
+				E6562A7723A25F9B000AEF7F /* AppDelegate.swift in Sources */,
+				E6562A8B23A27481000AEF7F /* Apotik.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6562A7A23A25F9B000AEF7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6562A7B23A25F9B000AEF7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6562A7F23A25F9D000AEF7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6562A8023A25F9D000AEF7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6562A8323A25F9D000AEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6562A8423A25F9D000AEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6562A8623A25F9D000AEF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShowTik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.ShowTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6562A8723A25F9D000AEF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShowTik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.ShowTik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6562A6E23A25F9B000AEF7F /* Build configuration list for PBXProject "ShowTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6562A8323A25F9D000AEF7F /* Debug */,
+				E6562A8423A25F9D000AEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6562A8523A25F9D000AEF7F /* Build configuration list for PBXNativeTarget "ShowTik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6562A8623A25F9D000AEF7F /* Debug */,
+				E6562A8723A25F9D000AEF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6562A6B23A25F9B000AEF7F /* Project object */;
+}
